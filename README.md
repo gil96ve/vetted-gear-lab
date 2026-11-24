@@ -11,7 +11,7 @@ Sitio estático de reviews analíticas para Amazon Associates US (**Store ID asi
 - ✅ `gil96ve` configurado en `robots.txt`, `sitemap.xml`, `contact.html` e `index.html`
 - ✅ Repositorio remoto `https://github.com/gil96ve/vetted-gear-lab` y GitHub Pages activos: **https://gil96ve.github.io/vetted-gear-lab/**
 - ⚠️ CI desactivado temporalmente: el token `gh` carece del scope `workflow`. Para reactivar: `gh auth refresh -s workflow` y luego `git add -f .github/workflows/compliance.yml && git commit && git push`
-- ⚠️ Gemini CLI: key de Google AI Studio configurada; `gemini-2.5-flash` dio 404 (obsoleto) y `gemini-3.8-flash` devolvió 503 por alta demanda. Mientras tanto, los guiones los genera el modelo director local. Reintentar más tarde o cambiar a login OAuth.
+- ⚠️ Gemini CLI: key de Google AI Studio configurada; `gemini-2.5-flash` dio 404 (obsoleto) y `gemini-3.8-flash` devolvió 503 por alta demanda. Rotación activa: guiones/SEO con **modelos OpenCode gratuitos** (`deepseek-v4.1-flash-free` / `beam-free`) o el director Big Pickle; Cloud con `nemotron-3.5-super-vl-free`. Reintentar Gemini más tarde o cambiar a login OAuth.
 
 ## Pendiente de verificación por el usuario
 
