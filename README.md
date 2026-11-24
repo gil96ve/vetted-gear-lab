@@ -65,6 +65,7 @@ SEASONAL_RESEARCH.md 10 productos tech en rango $80–$1,000 (snapshot 24 nov 20
 TOOLS_RESEARCH.md    10 herramientas en rango $80–$1,000 + comparación con tecnología
 NICHE_EVALUATION.md  Evaluación de viabilidad de los nichos al 10% (veredicto: condicionado)
 NICHE_DECISION.md   Nicho elegido: energía y mantenimiento portátil (Automotive 4.5%)
+SITESTRIPE_TODO.md  Links directos + plantilla para pegar los amzn.to por SKU
 OPERACION.md        Checklist fiscal, pago y contenido tras el alta
 templates/          Plantillas de guion y prompts visuales
 scripts/            Auditor, generador de SKU y entregables por producto
