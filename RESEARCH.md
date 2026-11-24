@@ -121,7 +121,7 @@ Fuente: https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ
 ### No verificado / no afirmar
 
 - Que el registro desde Venezuela sea aceptado por el formulario actual de Amazon (no se intentó).
-- Que `audifonosgrif-20` pertenezca a este proyecto o a "Vetted Gear Lab".
+- Que el Store ID solicitado `vettedgearlab20` sea finalmente aceptado por Amazon (el blueprint original indicaba `audifonosgrif-20`).
 - Que la cédula venezolana sea aceptada como Foreign TIN sin validación.
 - Tasa efectiva de retención bajo el tratado para estas comisiones.
 - Integración Payoneer ↔ Amazon Associates US.
