@@ -1,0 +1,3 @@
+# El token actual de gh no tiene el scope "workflow".
+# Este archivo se versionará cuando se autorice con: gh auth refresh -s workflow
+.github/workflows/compliance.yml
