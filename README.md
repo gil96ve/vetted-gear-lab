@@ -63,6 +63,7 @@ SCRIPT_RULE.md      Regla permanente de guiones (5 pasos)
 RESEARCH.md         Tendencias 24 nov 2026 + comisiones/elegibilidad (fuentes oficiales)
 SEASONAL_RESEARCH.md 10 productos tech en rango $80–$1,000 (snapshot 24 nov 2026)
 TOOLS_RESEARCH.md    10 herramientas en rango $80–$1,000 + comparación con tecnología
+NICHE_EVALUATION.md  Evaluación de viabilidad de los nichos al 10% (veredicto: condicionado)
 OPERACION.md        Checklist fiscal, pago y contenido tras el alta
 templates/          Plantillas de guion y prompts visuales
 scripts/            Auditor, generador de SKU y entregables por producto
