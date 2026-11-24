@@ -1,22 +1,24 @@
 # Pendiente — enlaces SiteStripe
 
-Store ID: **vettedgearlab-20**. Generar **Text link** desde SiteStripe (Associates Central → Tools → SiteStripe) con la barra visible sobre la ficha del producto. Copiar solo la URL `https://amzn.to/...`.
+Store ID: **vettedgearlab-20**. Generar **Text link** desde SiteStripe (Associates Central → Tools → SiteStripe) con la barra visible sobre la ficha del producto.
 
-**Reglas:** no acortadores externos, no links `?tag=` inventados, no pegar HTML. Cada `amzn.to` debe corresponder al ASIN indicado.
+**Formato vigente verificado 24 nov 2026:** Amazon emite `https://link.amazon/<codigo>` (además del clásico `https://amzn.to/<codigo>`). Al seguir la redirección, los 20 links resolvieron al ASIN correcto con `linkCode=sl2` y `tag=vettedgearlab-20`. Inventario completo en `affiliate-links.json`.
+
+**Reglas:** no acortadores externos, no links `?tag=` inventados, no pegar HTML. Cada link debe corresponder al ASIN indicado.
 
 ## Prioridad — pipeline de SKUs
 
 | SKU | Producto | ASIN | URL directa | Categoría / comisión | Estado |
 |---|---|---|---|---|---|
-| 001 | NOCO Boost GB40 1000A | B015TKUPIC | https://www.amazon.com/dp/B015TKUPIC | Automotive 4.5% | ⬜ link pendiente |
-| 002 | WOLFBOX MV24A 4000A + Inflador | B0DWRYJWKG | https://www.amazon.com/dp/B0DWRYJWKG | Automotive 4.5% | ⬜ |
-| 003 | DEWALT DCC020IB Inflador 20V (Tool Only) | B07H39S9JQ | https://www.amazon.com/dp/B07H39S9JQ | Tools 3% | ⬜ |
-| 004 | Makita DMP180ZX Inflador 18V (Tool Only) | B085DV34VC | https://www.amazon.com/dp/B085DV34VC | Tools 3% | ⬜ |
-| 005 | Anker Laptop Power Bank 25,000 mAh 165W | B0DCBB2YTR | https://www.amazon.com/dp/B0DCBB2YTR | All Other 4% | ⬜ |
-| 006 | eero Pro 7 Wi-Fi 7 | B0C6RBS846 | https://www.amazon.com/dp/B0C6RBS846 | All Other 4% | ⬜ |
-| Ocasional | JBL PartyBox Wireless Mic | B0CTDJ45M4 | https://www.amazon.com/dp/B0CTDJ45M4 | Musical Instruments 3% | ⬜ |
-| Ocasional | Ring Floodlight Cam Wired Plus | B08F6GPQQ7 | https://www.amazon.com/dp/B08F6GPQQ7 | Ring 4% | ⬜ |
-| Ocasional | California Air Tools 8010A | B07N528213 | https://www.amazon.com/dp/B07N528213 | Tools 3% | ⬜ |
+| 001 | NOCO Boost GB40 1000A | B015TKUPIC | https://www.amazon.com/dp/B015TKUPIC | Automotive 4.5% | ✅ Publicado en `products.json` |
+| 002 | WOLFBOX MV24A 4000A + Inflador | B0DWRYJWKG | https://www.amazon.com/dp/B0DWRYJWKG | Automotive 4.5% | ✅ |
+| 003 | DEWALT DCC020IB Inflador 20V (Tool Only) | B07H39S9JQ | https://www.amazon.com/dp/B07H39S9JQ | Tools 3% | ✅ |
+| 004 | Makita DMP180ZX Inflador 18V (Tool Only) | B085DV34VC | https://www.amazon.com/dp/B085DV34VC | Tools 3% | ✅ |
+| 005 | Anker Laptop Power Bank 25,000 mAh 165W | B0DCBB2YTR | https://www.amazon.com/dp/B0DCBB2YTR | All Other 4% | ✅ |
+| 006 | eero Pro 7 Wi-Fi 7 | B0C6RBS846 | https://www.amazon.com/dp/B0C6RBS846 | All Other 4% | ✅ |
+| Ocasional | JBL PartyBox Wireless Mic | B0CTDJ45M4 | https://www.amazon.com/dp/B0CTDJ45M4 | Musical Instruments 3% | ✅ |
+| Ocasional | Ring Floodlight Cam Wired Plus | B08F6GPQQ7 | https://www.amazon.com/dp/B08F6GPQQ7 | Ring 4% | ✅ |
+| Ocasional | California Air Tools 8010A | B07N528213 | https://www.amazon.com/dp/B07N528213 | Tools 3% | ✅ |
 
 ## Resto de productos investigados (opcional)
 

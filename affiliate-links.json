@@ -1,0 +1,28 @@
+{
+  "store_id": "vettedgearlab-20",
+  "source": "Amazon Associates SiteStripe (linkCode=sl2)",
+  "verified": "2026-11-24",
+  "note": "Cada URL resuelve al ASIN indicado y lleva tag=vettedgearlab-20. Formato oficial vigente: https://link.amazon/<codigo> junto a https://amzn.to/<codigo>.",
+  "links": [
+    { "sku": "001", "asin": "B015TKUPIC", "url": "https://link.amazon/B05Zm4YLR", "product": "NOCO Boost GB40 1000A" },
+    { "sku": "002", "asin": "B0DWRYJWKG", "url": "https://link.amazon/B0d7IryDK", "product": "WOLFBOX MV24A 4000A + Inflador" },
+    { "sku": "003", "asin": "B07H39S9JQ", "url": "https://link.amazon/B03CRxMWT", "product": "DEWALT DCC020IB Inflador 20V" },
+    { "sku": "004", "asin": "B085DV34VC", "url": "https://link.amazon/B0iwbT7Ne", "product": "Makita DMP180ZX Inflador 18V" },
+    { "sku": "005", "asin": "B0DCBB2YTR", "url": "https://link.amazon/B0cJovQtn", "product": "Anker Laptop Power Bank 165W" },
+    { "sku": "006", "asin": "B0C6RBS846", "url": "https://link.amazon/B0j6MSbhu", "product": "eero Pro 7 Wi-Fi 7" },
+    { "sku": "007", "asin": "B0CTDJ45M4", "url": "https://link.amazon/B0aAyjVFd", "product": "JBL PartyBox Wireless Mic" },
+    { "sku": "008", "asin": "B08F6GPQQ7", "url": "https://link.amazon/B09lNj9oy", "product": "Ring Floodlight Wired Plus" },
+    { "sku": "009", "asin": "B07N528213", "url": "https://link.amazon/B067u0Q8X", "product": "California Air Tools 8010A" },
+    { "sku": "010", "asin": "B083ZCWWWK", "url": "https://link.amazon/B07N5Whpu", "product": "RockJam RJ5061 61-Key Kit" },
+    { "sku": "011", "asin": "B0DC8ZMR1P", "url": "https://link.amazon/B05hW2b8L", "product": "Amazon Echo Show 8" },
+    { "sku": "012", "asin": "B0HJ9ZNRKT", "url": "https://link.amazon/B0aieKGET", "product": "Apple Watch SE 3 GPS 40 mm" },
+    { "sku": "013", "asin": "B0HJB69GJL", "url": "https://link.amazon/B03mQp8GG", "product": "Apple AirPods 5" },
+    { "sku": "014", "asin": "B0DZ75TN5F", "url": "https://link.amazon/B0a90a057", "product": "Apple iPad 11-inch A16 128GB" },
+    { "sku": "015", "asin": "B0D14WP9TB", "url": "https://link.amazon/B09mCd0dy", "product": "Govee Permanent Outdoor Lights 2" },
+    { "sku": "016", "asin": "B0F29969G1", "url": "https://link.amazon/B06p1U8g1", "product": "TOPDON TC004 Mini" },
+    { "sku": "017", "asin": "B0GHR5DXFC", "url": "https://link.amazon/B02qiOLz8", "product": "OLIGHT ArkPro Ultra" },
+    { "sku": "018", "asin": "B0FWFJ5Q2Z", "url": "https://link.amazon/B0dHaT9fB", "product": "Ring Floodlight Cam 2K" },
+    { "sku": "019", "asin": "B0D95VWQB7", "url": "https://link.amazon/B05znpNiK", "product": "Klutch Compresor 20 gal" },
+    { "sku": "020", "asin": "B0DX1WPB9J", "url": "https://link.amazon/B01P3b5rO", "product": "Govee Permanent Outdoor Lights Pro 200 ft" }
+  ]
+}

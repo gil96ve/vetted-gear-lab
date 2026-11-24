@@ -97,8 +97,8 @@ if (Array.isArray(products)) {
     if (product.image && (/^https?:/i.test(product.image) || AMAZON_IMAGE.test(product.image))) {
       fail(`${label}: "image" debe ser una ruta local generada por IA, no una URL remota`);
     }
-    if (product.affiliate_url && !/^https:\/\/amzn\.to\//i.test(product.affiliate_url)) {
-      fail(`${label}: "affiliate_url" debe ser un link oficial de SiteStripe (https://amzn.to/...)`);
+    if (product.affiliate_url && !/^https:\/\/(?:amzn\.to|link\.amazon)\//i.test(product.affiliate_url)) {
+      fail(`${label}: "affiliate_url" debe ser un link oficial de SiteStripe (https://amzn.to/... o https://link.amazon/...)`);
     }
   });
 }
