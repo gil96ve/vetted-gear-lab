@@ -7,9 +7,15 @@ Sitio estático de reviews analíticas para Amazon Associates US (Store ID `audi
 - ✅ Estructura web y páginas de cumplimiento
 - ✅ Auditor automático de cumplimiento (`npm run check`)
 - ✅ Plantillas de guion y prompts por SKU (`npm run new-sku -- 001`)
-- ⬜ Productos publicados (0 de 5 mínimos recomendados antes de pedir revisión manual a Amazon)
+- ⬜ Productos publicados (0 de ~10 posts originales y recientes que Amazon sugiere antes de solicitar revisión)
 - ✅ `gil96ve` configurado en `robots.txt`, `sitemap.xml`, `contact.html` e `index.html`
 - ⬜ Repositorio remoto y GitHub Pages activados
+
+## Pendiente de verificación por el usuario
+
+- Confirmar que el Store ID `audifonosgrif-20` te pertenece y que debe asociarse a esta marca (no verificable desde fuentes públicas).
+- Confirmar método de cobro real desde Venezuela: Amazon documenta transferencia IBAN/BIC y Gift Card; **Payoneer no está confirmado** como método de pago de Associates US.
+- No afirmar 0% de retención: sin W-8BEN válido puede haber hasta 30%; la tasa aplicable del tratado EE.UU.–Venezuela a comisiones está sin verificar.
 
 ## Puesta en marcha
 
@@ -50,6 +56,7 @@ privacy.html        Privacidad
 robots.txt          Indexación (usuario gil96ve)
 sitemap.xml         Sitemap (usuario gil96ve)
 SCRIPT_RULE.md      Regla permanente de guiones (5 pasos)
+RESEARCH.md         Tendencias 24 nov 2026 + comisiones/elegibilidad (fuentes oficiales)
 templates/          Plantillas de guion y prompts visuales
 scripts/            Auditor, generador de SKU y entregables por producto
 assets/             Visuales IA por SKU
