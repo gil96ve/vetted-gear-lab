@@ -9,7 +9,8 @@ Sitio estático de reviews analíticas para Amazon Associates US (Store ID `audi
 - ✅ Plantillas de guion y prompts por SKU (`npm run new-sku -- 001`)
 - ⬜ Productos publicados (0 de ~10 posts originales y recientes que Amazon sugiere antes de solicitar revisión)
 - ✅ `gil96ve` configurado en `robots.txt`, `sitemap.xml`, `contact.html` e `index.html`
-- ⬜ Repositorio remoto y GitHub Pages activados
+- ✅ Repositorio remoto `https://github.com/gil96ve/vetted-gear-lab` y GitHub Pages activos: **https://gil96ve.github.io/vetted-gear-lab/**
+- ⚠️ CI desactivado temporalmente: el token `gh` carece del scope `workflow`. Para reactivar: `gh auth refresh -s workflow` y luego `git add -f .github/workflows/compliance.yml && git commit && git push`
 
 ## Pendiente de verificación por el usuario
 
@@ -20,14 +21,14 @@ Sitio estático de reviews analíticas para Amazon Associates US (Store ID `audi
 ## Puesta en marcha
 
 ```bash
-# 1. Crear el repo remoto con GitHub CLI (autenticado)
-gh repo create vetted-gear-lab --public --source=. --remote=origin --push
+# 1. El repo remoto y GitHub Pages YA están activos:
+#    https://github.com/gil96ve/vetted-gear-lab
+#    https://gil96ve.github.io/vetted-gear-lab/
 
-# 2. El usuario de GitHub (gil96ve) ya está configurado en robots.txt, sitemap.xml, contact.html e index.html
+# 2. URL para declarar en el formulario de Amazon Associates US:
+#    https://gil96ve.github.io/vetted-gear-lab/
 
-# 3. Activar GitHub Pages: Settings > Pages > Source: Deploy from a branch > main / root
-
-# 4. Verificación local
+# 3. Verificación local
 npm run check
 npm run serve          # http://localhost:8000
 ```
@@ -40,7 +41,7 @@ npm run serve          # http://localhost:8000
 | `npm run new-sku -- 001` | Crea `scripts/001/script.md` y `assets/001/prompts.md` desde las plantillas |
 | `npm run new-sku` | Calcula automáticamente el siguiente SKU según `products.json` |
 
-El workflow `.github/workflows/compliance.yml` ejecuta la misma auditoría en cada push/PR.
+El workflow `.github/workflows/compliance.yml` ejecutará la misma auditoría en cada push/PR en cuanto se reactive (ver aviso sobre el scope `workflow` más arriba). Mientras tanto, ejecuta `npm run check` antes de cada push.
 
 ## Estructura
 
