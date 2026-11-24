@@ -95,12 +95,11 @@ if (Array.isArray(products)) {
 }
 
 // 6.placeholders pendientes de reemplazo (informativo).
-if (/YOUR_USERNAME/.test(read('sitemap.xml') || '') || /YOUR_USERNAME/.test(read('robots.txt') || '')) {
-  warn('Queda YOUR_USERNAME en robots.txt/sitemap.xml: reemplazar por el usuario real de GitHub');
-}
-if (/YOUR_USERNAME/.test(read('contact.html') || '')) {
-  warn('Queda YOUR_USERNAME en contact.html: reemplazar por el usuario real de GitHub');
-}
+['robots.txt', 'sitemap.xml', 'contact.html', 'index.html'].forEach((file) => {
+  if (/YOUR_USERNAME/.test(read(file) || '')) {
+    warn(`${file}: queda YOUR_USERNAME sin reemplazar`);
+  }
+});
 
 // Reporte.
 console.log('Vetted Gear Lab — compliance check');

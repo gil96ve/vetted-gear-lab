@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR_USERNAME.github.io/vetted-gear-lab/sitemap.xml
+Sitemap: https://gil96ve.github.io/vetted-gear-lab/sitemap.xml

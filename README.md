@@ -8,7 +8,7 @@ Sitio estático de reviews analíticas para Amazon Associates US (Store ID `audi
 - ✅ Auditor automático de cumplimiento (`npm run check`)
 - ✅ Plantillas de guion y prompts por SKU (`npm run new-sku -- 001`)
 - ⬜ Productos publicados (0 de 5 mínimos recomendados antes de pedir revisión manual a Amazon)
-- ⬜ `YOUR_USERNAME` reemplazado en `robots.txt`, `sitemap.xml` y `contact.html`
+- ✅ `gil96ve` configurado en `robots.txt`, `sitemap.xml`, `contact.html` e `index.html`
 - ⬜ Repositorio remoto y GitHub Pages activados
 
 ## Puesta en marcha
@@ -17,7 +17,7 @@ Sitio estático de reviews analíticas para Amazon Associates US (Store ID `audi
 # 1. Crear el repo remoto con GitHub CLI (autenticado)
 gh repo create vetted-gear-lab --public --source=. --remote=origin --push
 
-# 2. Reemplazar YOUR_USERNAME por tu usuario de GitHub en robots.txt, sitemap.xml y contact.html
+# 2. El usuario de GitHub (gil96ve) ya está configurado en robots.txt, sitemap.xml, contact.html e index.html
 
 # 3. Activar GitHub Pages: Settings > Pages > Source: Deploy from a branch > main / root
 
@@ -47,8 +47,8 @@ about.html          Metodología
 contact.html        Correcciones
 disclosure.html     Affiliate disclosure completo
 privacy.html        Privacidad
-robots.txt          Indexación (reemplazar YOUR_USERNAME)
-sitemap.xml         Sitemap (reemplazar YOUR_USERNAME)
+robots.txt          Indexación (usuario gil96ve)
+sitemap.xml         Sitemap (usuario gil96ve)
 SCRIPT_RULE.md      Regla permanente de guiones (5 pasos)
 templates/          Plantillas de guion y prompts visuales
 scripts/            Auditor, generador de SKU y entregables por producto
