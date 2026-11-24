@@ -6,7 +6,7 @@
 
 **Rango de precio objetivo: $80–$1,000 USD inclusive**, el mismo que `SEASONAL_RESEARCH.md`. Evidencia principal: posiciones en listas públicas de *Amazon Best Sellers* capturadas por **ParseShelf** el **2026-11-24 (UTC)**, marketplace US.
 
-**Comisión:** según `RESEARCH.md` (línea 71), **Tools y Home Improvement = 3.00%**. Es una estimación por categoría; confirmar por ASIN en Associates Central antes de proyectar ingresos.
+**Comisión:** según `RESEARCH.md`, **Tools y Home Improvement = 3.00%** (línea 71), con excepción documentada de **Ring = 4.00%** (línea 70, junto a Echo y Fire TV). Es una estimación por categoría; confirmar por ASIN en Associates Central antes de proyectar ingresos.
 
 ## 10 herramientas
 
@@ -17,8 +17,8 @@
 | 3 | **TOPDON TC004 Mini** Cámara termográfica portátil | Measuring & Layout Tools | https://www.amazon.com/dp/B0F29969G1 | $149.99 | 4.4 · 1,140 | **#51 en Measuring & Layout Tools**, −3 vs. 11-23; 7 días en top 100. ParseShelf CSV, 2026-11-24 | 3% |
 | 4 | **Makita DMP180ZX** Inflador inalámbrico 18V LXT (Tool Only) | Air Tools | https://www.amazon.com/dp/B085DV34VC | $95.00 | 4.7 · 3,304 | **#72 en Air Tools**, −9 vs. 11-23; 3 días observado. ParseShelf CSV, 2026-11-24 | 3% |
 | 5 | **OLIGHT ArkPro Ultra** Linterna EDC plana recargable 1700 lm | Tools & Home Improvement (raíz) | https://www.amazon.com/dp/B0GHR5DXFC | $103.99 | 4.7 · 2,400 | **#78 en Tools & Home Improvement**, −13 vs. 11-23; 4 días en top 100. ParseShelf CSV raíz, 2026-11-24 | 3% |
-| 6 | **Ring Floodlight Cam 2K** (modelo más reciente) | Tools & Home Improvement (raíz) y Lighting & Ceiling Fans | https://www.amazon.com/dp/B0FWFJ5Q2Z | $99.99 | 4.6 · 647 | **#85 en Tools & Home Improvement** (−2) y **#25 en Lighting** (+2); 7 días en ambas. ParseShelf, 2026-11-24 | 3% |
-| 7 | **Ring Floodlight Cam Wired Plus (2nd Gen)** | Lighting & Ceiling Fans | https://www.amazon.com/dp/B08F6GPQQ7 | $89.99 | 4.7 · 44,713 | **#58 en Lighting & Ceiling Fans**, −3 vs. 11-23; estable 7 días. ParseShelf CSV, 2026-11-24 | 3% |
+| 6 | **Ring Floodlight Cam 2K** (modelo más reciente) | Tools & Home Improvement (raíz) y Lighting & Ceiling Fans | https://www.amazon.com/dp/B0FWFJ5Q2Z | $99.99 | 4.6 · 647 | **#85 en Tools & Home Improvement** (−2) y **#25 en Lighting** (+2); 7 días en ambas. ParseShelf, 2026-11-24 | **4%** (Ring) |
+| 7 | **Ring Floodlight Cam Wired Plus (2nd Gen)** | Lighting & Ceiling Fans | https://www.amazon.com/dp/B08F6GPQQ7 | $89.99 | 4.7 · 44,713 | **#58 en Lighting & Ceiling Fans**, −3 vs. 11-23; estable 7 días. ParseShelf CSV, 2026-11-24 | **4%** (Ring) |
 | 8 | **Klutch Compresor de aire 20 gal / 2 HP / 120V / 175 PSI** | Air Tools | https://www.amazon.com/dp/B0D95VWQB7 | $279.99 | 4.5 · 798 | **#24 en Air Tools**, estable vs. 11-23; 7 días en top 100. ParseShelf CSV, 2026-11-24 | 3% |
 | 9 | **Govee Permanent Outdoor Lights Pro** 200 ft / 120 LEDs | Tools & Home Improvement (raíz) y Lighting & Ceiling Fans | https://www.amazon.com/dp/B0DX1WPB9J | $399.99 | 4.3 · 2,504 | **#71 en Tools & Home Improvement** (−12) y **#20 en Lighting** (−1); bajada observada $449.99 → $399.99 (−11%) el 2026-11-24. ParseShelf, 2026-11-24 | 3% |
 | 10 | **California Air Tools 8010A** Compresor ultra silencioso 8 gal | Air Tools | https://www.amazon.com/dp/B07N528213 | $259.99 | 4.7 · 1,121 | **#92 en Air Tools**, −3 vs. 11-23; 7 días en top 100. ParseShelf CSV, 2026-11-24 | 3% |
@@ -51,11 +51,11 @@
 
 1. **DEWALT DCC020IB** — $127.79 — #3 Air Tools — 4.6 · 18,752 reseñas. Mejor combinación de ranking, volumen y encaje analítico. Ángulo diferencial: *"¿arrancador tipo NOCO/WOLFBOX o inflador de plataforma tipo DEWALT?"* (batería separada, presión máxima, ruido, tiempo de inflado).
 2. **Govee Permanent Outdoor Lights 2** — $179.99 — #48 raíz / #15 Lighting — 4.4 · 3,285 reseñas. Mejor encaje estacional navideño (fachada/patio), doble posicionamiento y ticket medio alto; su versión Pro bajó de precio el mismo día, lo que da material de comparación "cuándo comprar".
-3. **Ring Floodlight Cam Wired Plus** — $89.99 — #58 Lighting — 4.7 · 44,713 reseñas. Mayor corpus de reseñas de la lista herramientas, rating alto y estabilidad de 7 días. Ideal para reviews analíticos sobre falsos positivos de movimiento, instalación cableada y convivencia con Alexa/Echo.
+3. **Ring Floodlight Cam Wired Plus** — $89.99 — #58 Lighting — 4.7 · 44,713 reseñas — **4% por marca Ring**. Mayor corpus de reseñas de la lista herramientas, rating alto y estabilidad de 7 días. Ideal para reviews analíticos sobre falsos positivos de movimiento, instalación cableada y convivencia con Alexa/Echo.
 
 **Suplente:** **TOPDON TC004 Mini** (#51 Measuring & Layout Tools, $149.99, 4.4 · 1,140) si se quiere contenido más técnico/diagnóstico.
 
-**Matiz de revenue:** la lista de tecnología tiene comisiones más altas en varios productos (4%–4.5%: NOCO, WOLFBOX, Anker, eero, iPad, Watch, Echo Show) frente al 3% fijo de herramientas. Si el criterio fuera **solo revenue por venta**, tecnología lleva ventaja; herramientas gana por **frescura estacional, ángulo de reviews y menor saturación de contenido**.
+**Matiz de revenue:** la lista de tecnología tiene comisiones más altas en varios productos (4%–4.5%: NOCO, WOLFBOX, Anker, eero, iPad, Watch, Echo Show) frente al 3% de herramientas generales, **salvo Ring (4%)**. Si el criterio fuera **solo revenue por venta**, tecnología lleva ventaja; herramientas gana por **frescura estacional, ángulo de reviews y menor saturación de contenido**.
 
 ## Fuentes
 
@@ -67,7 +67,7 @@
 - Detalle de cambios diarios y 7 días en Lighting: https://parseshelf.com/best-sellers/hi/495224-lighting-and-ceiling-fans/
 - **Google Holiday 100 2026:** https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026 (interés de búsqueda, no ventas).
 - **Mashable / Holiday 100 2026:** mencionó un combo Milwaukee M18 como tendencia de herramientas, pero sin ASIN/precio verificado; no entró en la tabla.
-- **RESEARCH.md** local: confirmó la tasa de 3.00% para Tools/Home Improvement (línea 71).
+- **RESEARCH.md** local: confirmó la tasa de 3.00% para Tools/Home Improvement (línea 71) y el 4.00% para Ring (línea 70).
 
 ## Incertidumbre y compliance
 
