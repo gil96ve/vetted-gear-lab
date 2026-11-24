@@ -60,7 +60,7 @@ Verificado en fuentes oficiales el 24 nov 2026. No es consejo fiscal; la situaci
 
 ### Tabla oficial de comisiones (Amazon Associates US)
 
-Fuente: https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ
+Fuente: https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ — reconfirmada el 24 nov 2026 (tabla vigente: 10% / 5% / 4.5% / 4% / 3% / 2.5% / 2% / 1% / 0%).
 
 | Comisión | Categorías relevantes |
 |---:|---|
