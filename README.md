@@ -1,6 +1,6 @@
 # Vetted Gear Lab
 
-Sitio estático de reviews analíticas para Amazon Associates US (Store ID preferido: `vettedgearlab20`, solicitado en el alta; el blueprint original indicaba `audifonosgrif-20`). Todo el contenido público está en inglés estadounidense; la documentación interna está en español. Coste: **$0**, sin dependencias npm.
+Sitio estático de reviews analíticas para Amazon Associates US (**Store ID asignado por Amazon: `vettedgearlab-20`**, 24 nov 2026; el blueprint original indicaba `audifonosgrif-20`). Todo el contenido público está en inglés estadounidense; la documentación interna está en español. Coste: **$0**, sin dependencias npm.
 
 ## Estado actual
 
@@ -14,7 +14,9 @@ Sitio estático de reviews analíticas para Amazon Associates US (Store ID prefe
 
 ## Pendiente de verificación por el usuario
 
-- Confirmar que el Store ID `vettedgearlab20` fue aceptado por Amazon; si no, actualizar la documentación con el ID asignado. Generar siempre los enlaces con SiteStripe.
+- ✅ Store ID asignado: `vettedgearlab-20`. Generar siempre los enlaces con SiteStripe usando ese ID.
+- ⬜ Enviar la entrevista fiscal (W-8BEN) y configurar método de pago antes de recibir ingresos.
+- ⬜ Completar la entrevista de verificación: Amazon exige ventas cualificadas dentro de los 180 días posteriores al alta (≈ 23 may 2027). No cuentan pedidos propios ni de familiares.
 - Confirmar método de cobro real desde Venezuela: Amazon documenta transferencia IBAN/BIC y Gift Card; **Payoneer no está confirmado** como método de pago de Associates US.
 - No afirmar 0% de retención: sin W-8BEN válido puede haber hasta 30%; la tasa aplicable del tratado EE.UU.–Venezuela a comisiones está sin verificar.
 

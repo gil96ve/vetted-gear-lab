@@ -103,7 +103,7 @@ Fuente: https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ
 | "0% retención por no residente" | No afirmable; hasta 30% sin W-8BEN válido, tasa de tratado no verificada para comisiones |
 | "Payoneer/ACH como método de pago" | No confirmado por Amazon; alternativas documentadas: transferencia IBAN/BIC y Gift Card |
 | "Cookie de 90 días" | 24 h de sesión + hasta 89 días por carrito + 180 días de cumplimiento |
-| "Cuenta se cierra si no hay ventas" | No verificado; lo oficial es revisión tras 3 ventas en 180 días |
+| "Cuenta se cierra si no hay ventas" | El correo de bienvenida recibido por el usuario (24 nov 2026) dice que sin ventas válidas en 180 días el acceso "será…" (mensaje incompleto). Actualizado: evidencia de primera fuente de posible terminación; el texto exacto está pendiente de confirmar |
 | "Inexistencia de tratado EE.UU.–Venezuela" | Falso: existe tratado; la tasa aplicable a comisiones está sin verificar |
 
 ### Fuentes oficiales
@@ -121,7 +121,8 @@ Fuente: https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ
 ### No verificado / no afirmar
 
 - Que el registro desde Venezuela sea aceptado por el formulario actual de Amazon (no se intentó).
-- Que el Store ID solicitado `vettedgearlab20` sea finalmente aceptado por Amazon (el blueprint original indicaba `audifonosgrif-20`).
+- Store ID **asignado y verificado por el usuario el 24 nov 2026**: `vettedgearlab-20` (el ID solicitado fue `vettedgearlab20`; el blueprint original indicaba `audifonosgrif-20`).
+- El correo de bienvenida de Amazon indicó que, sin ventas válidas referidas en 180 días, la solicitud y el acceso a Associates Central "será…" (texto recibido incompleto). Evoluciona la conclusión anterior: ahora hay evidencia de **primera fuente** de que el acceso puede terminar; pendiente de leer el mensaje completo antes de afirmar el mecanismo exacto.
 - Que la cédula venezolana sea aceptada como Foreign TIN sin validación.
 - Tasa efectiva de retención bajo el tratado para estas comisiones.
 - Integración Payoneer ↔ Amazon Associates US.
