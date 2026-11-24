@@ -56,7 +56,16 @@ WEB_FILES.forEach((file) => {
   if (SHORTENER.test(content)) fail(`${file}: contiene un acortador externo`);
 });
 
-// 5. Esquema de products.json y links.
+// 5. Store ID correcto en archivos web (el asignado es vettedgearlab-20).
+const OLD_STORE_ID = /audifonosgrif-20|vettedgearlab20(?!-)/i;
+WEB_FILES.forEach((file) => {
+  const content = read(file);
+  if (content !== null && OLD_STORE_ID.test(content)) {
+    fail(`${file}: contiene un Store ID obsoleto; el asignado es vettedgearlab-20`);
+  }
+});
+
+// 6. Esquema de products.json y links.
 let products = [];
 const productsContent = read('products.json');
 if (productsContent !== null) {
@@ -94,7 +103,7 @@ if (Array.isArray(products)) {
   });
 }
 
-// 6.placeholders pendientes de reemplazo (informativo).
+// 7. Placeholders pendientes de reemplazo (informativo).
 ['robots.txt', 'sitemap.xml', 'contact.html', 'index.html'].forEach((file) => {
   if (/YOUR_USERNAME/.test(read(file) || '')) {
     warn(`${file}: queda YOUR_USERNAME sin reemplazar`);

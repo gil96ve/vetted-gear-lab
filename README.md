@@ -60,6 +60,7 @@ robots.txt          Indexación (usuario gil96ve)
 sitemap.xml         Sitemap (usuario gil96ve)
 SCRIPT_RULE.md      Regla permanente de guiones (5 pasos)
 RESEARCH.md         Tendencias 24 nov 2026 + comisiones/elegibilidad (fuentes oficiales)
+OPERACION.md        Checklist fiscal, pago y contenido tras el alta
 templates/          Plantillas de guion y prompts visuales
 scripts/            Auditor, generador de SKU y entregables por producto
 assets/             Visuales IA por SKU
@@ -83,7 +84,7 @@ Cada entrada es un objeto con exactamente estos campos:
 }
 ```
 
-Reglas: SKU de 3 dígitos único; `score` numérico 0–5; `image` ruta local (IA original); `affiliate_url` exclusivamente SiteStripe `https://amzn.to/...`. **Nunca** añadir un campo `price`.
+Reglas: SKU de 3 dígitos único; `score` numérico 0–5 es una **puntuación editorial de cobertura de specs, no estrellas de Amazon**; `image` ruta local (IA original); `affiliate_url` exclusivamente SiteStripe `https://amzn.to/...` con Store ID `vettedgearlab-20`. **Nunca** añadir un campo `price`.
 
 ## Flujo de trabajo (fases del blueprint)
 

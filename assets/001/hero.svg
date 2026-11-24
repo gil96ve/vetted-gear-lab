@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Original illustration of a compact portable jump starter with clamps">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="1" stop-color="#1b2a38"/>
+    </linearGradient>
+    <linearGradient id="unit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4756"/>
+      <stop offset="1" stop-color="#151d26"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <ellipse cx="480" cy="452" rx="300" ry="34" fill="#000" opacity=".45"/>
+  <rect x="360" y="196" width="240" height="176" rx="26" fill="url(#unit)" stroke="#4de2ff" stroke-opacity=".45" stroke-width="3"/>
+  <rect x="398" y="228" width="164" height="10" rx="5" fill="#4de2ff" opacity=".8"/>
+  <circle cx="408" cy="332" r="9" fill="#6ee7a8"/>
+  <circle cx="438" cy="332" r="9" fill="#263444"/>
+  <circle cx="468" cy="332" r="9" fill="#263444"/>
+  <path d="M600 250 C690 250 700 320 760 320" fill="none" stroke="#ff9a8b" stroke-width="14" stroke-linecap="round"/>
+  <path d="M600 300 C690 300 700 370 760 370" fill="none" stroke="#263444" stroke-width="14" stroke-linecap="round"/>
+  <rect x="748" y="304" width="34" height="34" rx="7" fill="#ff9a8b"/>
+  <rect x="748" y="354" width="34" height="34" rx="7" fill="#263444"/>
+  <text x="480" y="90" fill="#9fb0bf" font-family="system-ui, sans-serif" font-size="22" text-anchor="middle" letter-spacing="6">ORIGINAL AI PLACEHOLDER</text>
+</svg>

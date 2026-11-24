@@ -1,0 +1,20 @@
+{
+  "id": "001",
+  "title": "1000A Portable Lithium Jump Starter (12V)",
+  "category": "Automotive",
+  "score": 4.2,
+  "pros": [
+    "1000A peak current rated for 12V lead-acid batteries up to 6.0L gas or 3.0L diesel (manufacturer spec)",
+    "24Wh lithium battery rated by the manufacturer for up to 20 starts per charge",
+    "Spark-proof clamps and reverse-polarity protection reduce connection errors",
+    "IP65 housing with ports closed and a 100-lumen LED with seven light modes"
+  ],
+  "cons": [
+    "24Wh is a finite energy budget: this is a jump-start tool, not a portable power station",
+    "12V systems only; not rated for 24V trucks",
+    "5V/2.1A USB-C input means a full recharge takes hours, not minutes"
+  ],
+  "verdict": "Editorial score reflects spec coverage, not Amazon star ratings. Based on published manufacturer specifications, this 1000A-class pack covers most 12V gas engines up to 6.0L and diesel up to 3.0L, with safety interlocks that reduce connection mistakes. The honest limit is energy: 24Wh supports up to twenty starts, so repeated roadside use is not unlimited. No hands-on testing is claimed.",
+  "image": "assets/001/hero.svg",
+  "affiliate_url": "PENDIENTE_SITESTRIPE"
+}
