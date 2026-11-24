@@ -67,6 +67,7 @@ NICHE_EVALUATION.md  Evaluación de viabilidad de los nichos al 10% (veredicto: 
 NICHE_DECISION.md   Nicho elegido: energía y mantenimiento portátil (Automotive 4.5%)
 SITESTRIPE_TODO.md  Links directos + plantilla para pegar los links por SKU
 affiliate-links.json  Inventario de 20 links SiteStripe verificados por ASIN
+NEXT_SESSION.md     Handoff: estado exacto, bloqueos y próxima acción (SKU 002)
 OPERACION.md        Checklist fiscal, pago y contenido tras el alta
 templates/          Plantillas de guion y prompts visuales
 scripts/            Auditor, generador de SKU y entregables por producto
