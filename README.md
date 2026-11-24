@@ -61,6 +61,7 @@ robots.txt          Indexación (usuario gil96ve)
 sitemap.xml         Sitemap (usuario gil96ve)
 SCRIPT_RULE.md      Regla permanente de guiones (5 pasos)
 RESEARCH.md         Tendencias 24 nov 2026 + comisiones/elegibilidad (fuentes oficiales)
+SEASONAL_RESEARCH.md 10 productos tech en rango $80–$1,000 (snapshot 24 nov 2026)
 OPERACION.md        Checklist fiscal, pago y contenido tras el alta
 templates/          Plantillas de guion y prompts visuales
 scripts/            Auditor, generador de SKU y entregables por producto
