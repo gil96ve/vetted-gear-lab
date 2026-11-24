@@ -5,3 +5,4 @@
 # Nunca versionar keys de Google AI Studio ni otros secretos
 .env
 .env.*
+.gemini/.env
