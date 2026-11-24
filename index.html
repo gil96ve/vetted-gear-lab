@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vetted Gear Lab — Spec-driven product analysis</title>
+  <meta name="description" content="Short, analytical product breakdowns for US buyers. Specs, honest limitations, and clear verdicts — no hype.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vetted Gear Lab">
+  <meta property="og:title" content="Vetted Gear Lab — Spec-driven product analysis">
+  <meta property="og:description" content="Short, analytical product breakdowns for US buyers. Specs, honest limitations, and clear verdicts — no hype.">
+  <meta property="og:url" content="https://YOUR_USERNAME.github.io/vetted-gear-lab/">
+  <meta property="og:image" content="https://YOUR_USERNAME.github.io/vetted-gear-lab/assets/og-default.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to reviews</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Vetted Gear Lab home">
+        <span class="brand-mark" aria-hidden="true">VGL</span>
+        <span>Vetted Gear Lab</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Reviews</a>
+        <a href="about.html">About</a>
+        <a href="disclosure.html">Disclosure</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="affiliate-strip" role="note">As an Amazon Associate I earn from qualifying purchases.</div>
+
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">SPEC-DRIVEN PRODUCT LAB</p>
+      <h1 id="hero-title">Buy the specs, not the hype.</h1>
+      <p class="lede">Every review is built from technical specifications and verifiable sources. One clear strength, one honest limitation, no inflated claims.</p>
+      <div class="toolbar">
+        <label class="sr-only" for="search">Search reviews</label>
+        <input id="search" type="search" placeholder="Search by product or problem…" autocomplete="off">
+        <label class="sr-only" for="category">Filter by category</label>
+        <select id="category">
+          <option value="">All categories</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="catalog" class="grid" aria-label="Product reviews" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>No reviews match that search yet. Try a different term or category.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>As an Amazon Associate I earn from qualifying purchases.</p>
+      <p><a href="disclosure.html">Full disclosure</a> · <a href="privacy.html">Privacy</a> · <a href="about.html">About</a></p>
+      <p class="fineprint">Prices are not listed here. Always check the current price on Amazon before buying.</p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

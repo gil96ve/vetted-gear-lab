@@ -1,0 +1,11 @@
+{
+  "name": "vetted-gear-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static, spec-driven Amazon Associates review site. Zero dependencies.",
+  "scripts": {
+    "check": "node scripts/compliance-check.js",
+    "new-sku": "node scripts/new-sku.js",
+    "serve": "python -m http.server 8000"
+  }
+}
