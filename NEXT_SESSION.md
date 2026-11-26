@@ -36,9 +36,12 @@ Ubicación: `C:\Users\Gfive\orca\workspaces\Agency Agents\vetted-gear-lab`
 | `scripts/001/script.md` | Guion auditado, 72 palabras |
 | `scripts/002/script.md` | Guion auditado, 66 palabras |
 | `scripts/002/product-draft.json` | Link real + imagen original aplicada |
+| `scripts/003/script.md` | **Preparado**, 72 palabras habladas, 10 pain points, 10 hooks, 5 preguntas, captions |
+| `scripts/003/product-draft.json` | **Preparado**, link real + rutas de imagen original |
+| `assets/003/hero.jpg`, `assets/003/social.jpg` | **Generadas** 16:9 y 9:16 (Google Flow / Nano Banana 2.1, 2K) |
 | `assets/001/hero.jpg`, `assets/001/social.jpg` | Imágenes originales 16:9 y 9:16 (Google Flow / Nano Banana 2.1) |
 | `assets/002/hero.jpg`, `assets/002/social.jpg` | Imágenes originales 16:9 y 9:16 (Google Flow / Nano Banana 2.1) |
-| `IMAGE_PROMPTS.md` | 12 prompts + negative prompt + workflow de descarga 2K |
+| `IMAGE_PROMPTS.md` | 18 prompts + negative prompt + workflow de descarga 2K |
 | `affiliate-links.json` | 20 links verificados por ASIN + tag |
 | `SITESTRIPE_TODO.md` | Los 20 marcados ✅ |
 | `RESEARCH.md`, `SEASONAL_RESEARCH.md`, `TOOLS_RESEARCH.md` | Investigación completada |
@@ -63,7 +66,7 @@ Inventario completo en `affiliate-links.json`. Próximos SKUs:
 |---|---|---|
 | 001 | B015TKUPIC | https://link.amazon/B05Zm4YLR (publicado) |
 | 002 | B0DWRYJWKG | https://link.amazon/B0d7IryDK (publicado) |
-| 003 | B07H39S9JQ | https://link.amazon/B03CRxMWT |
+| 003 | B07H39S9JQ | https://link.amazon/B03CRxMWT (preparado, sin publicar) |
 | 004 | B085DV34VC | https://link.amazon/B0iwbT7Ne |
 | 005 | B0DCBB2YTR | https://link.amazon/B0cJovQtn |
 | 006 | B0C6RBS846 | https://link.amazon/B0j6MSbhu |
@@ -82,31 +85,30 @@ Inventario completo en `affiliate-links.json`. Próximos SKUs:
 
 ## 6. Acción inmediata al volver
 
-**Producir SKU #003 — DEWALT DCC020IB** (`https://link.amazon/B03CRxMWT`).
+**Publicar SKU #003 — DEWALT DCC020IB** (`https://link.amazon/B03CRxMWT`). Ya está TODO preparado en disco:
+
+- `scripts/003/script.md`: 72 palabras habladas, 10 pain points, 10 hooks, combinación #1, pattern interrupt 0:15, 5 engagement questions y captions con `#ad`.
+- `scripts/003/product-draft.json`: link SiteStripe real, imágenes locales y veredicto sin pruebas físicas.
+- `assets/003/hero.jpg` (2752×1536) y `assets/003/social.jpg` (1536×2752): originales de Flow, sin texto/logos.
+- `assets/003/prompts.md` y `IMAGE_PROMPTS.md`: prompts y workflow documentados.
+
+Solo falta añadir el objeto de `scripts/003/product-draft.json` como tercer elemento de `products.json` (no hay que regenerar nada) y verificar:
 
 ```powershell
 cd "C:\Users\Gfive\orca\workspaces\Agency Agents\vetted-gear-lab"
-npm run new-sku -- 003
-npm run check
-```
-
-Luego, siguiendo `SCRIPT_RULE.md`, generar en `scripts/003/`:
-- `script.md` con los 5 pasos, 65–78 palabras habladas y 5 engagement questions.
-- `product-draft.json` con el link real y la imagen original.
-- Captions por plataforma con `#ad` y deep link `/?p=003`.
-
-En `assets/003/`: generar `hero.jpg` (16:9) y `social.jpg` (9:16) con Flow, siguiendo `IMAGE_PROMPTS.md`. Después:
-
-```powershell
 npm run check
 git add -A
-git commit -m "feat: add SKU 003 DeWalt inflator review"
+git commit -m "feat: publish SKU 003 DeWalt inflator review"
 git push
 ```
 
-Verificar `products.json` con cache-busting y revisar `/?p=003`.
+Tras la propagación de GitHub Pages (~45 s), verificar con cache-busting:
 
-**Después:** SKU #004 Makita (`https://link.amazon/B0iwbT7Ne`), #005 Anker (`https://link.amazon/B0cJovQtn`), #006 eero (`https://link.amazon/B0j6MSbhu`).
+- `https://gil96ve.github.io/vetted-gear-lab/products.json?cb=...`
+- `https://gil96ve.github.io/vetted-gear-lab/?p=003`
+- `https://gil96ve.github.io/vetted-gear-lab/assets/003/hero.jpg?cb=...`
+
+**Después:** SKU #004 Makita (`https://link.amazon/B0iwbT7Ne`), #005 Anker (`https://link.amazon/B0cJovQtn`), #006 eero (`https://link.amazon/B0j6MSbhu`). El pipeline ya está validado: `npm run new-sku -- <sku>` → guion → Flow 16:9/x2 y 9:16/x1 → 2K + Pillow → `npm run check` → commit/push.
 
 ---
 

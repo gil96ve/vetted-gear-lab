@@ -48,6 +48,26 @@ Generation route that works in this environment: **Google Flow → Nano Banana 2
 ### Comparison silhouette
 > Photorealistic 16:9 side-by-side silhouette composition of a compact unbranded jump starter and a generic handheld inflator on dark slate, unified cool rim light, premium automotive editorial style, no text, no logos, no watermark.
 
+## SKU #003 — DEWALT DCC020IB 20V MAX cordless inflator
+
+### Hero 16:9 (generada, `assets/003/hero.jpg`)
+> Create a photorealistic 16:9 commercial product photo of an unbranded yellow and black cordless tire inflator tool body with a metal chuck and short air hose, no battery attached, on a dark workshop slate surface, dramatic cool rim light, soft warm key light, shallow depth of field, premium tool editorial style, clean empty left third, no text, no logos, no watermark.
+
+### Social 9:16 (prompt)
+> Create a vertical 9:16 social media product photo of an unbranded yellow and black cordless tire inflator tool body with a metal chuck and short air hose, no battery attached, on a dark workshop slate surface, dramatic cool rim light, product centered in lower half, clean empty top third for text, premium tool editorial, no text, no logos, no watermark.
+
+### Chuck detail
+> Macro 16:9 photo of an unbranded yellow and black cordless inflator's metal chuck and hose, dark workshop slate, raking warm light, shallow depth of field, no battery in frame, no text, no logos, no watermark.
+
+### Battery-missing context
+> Photorealistic 16:9 still life of an unbranded yellow and black cordless inflator beside an empty battery slot, dark slate, cool rim light, clean empty left third for copy, no text, no logos, no watermark.
+
+### Roadside context
+> Photorealistic 16:9 editorial scene of an unbranded yellow and black cordless inflator next to a car tire valve, quiet driveway at blue hour, no people, no license plates, no text, no logos, no watermark.
+
+### Tool-only comparison
+> Photorealistic 16:9 composition of an unbranded cordless inflator tool body, a loose air hose, and an empty battery outline on dark slate, unified cool rim light, clean empty left third, no text, no logos, no watermark.
+
 ## Download workflow used
 
 1. Generate in Flow with the prompt above.
