@@ -25,15 +25,6 @@ function absolute(path) {
   return new URL(path, window.location.href).href;
 }
 
-function isSafeExternal(url) {
-  try {
-    const parsed = new URL(url, window.location.href);
-    return parsed.protocol === 'https:' || parsed.protocol === 'http:';
-  } catch (_) {
-    return false;
-  }
-}
-
 function setMeta(selector, attribute, value) {
   const tag = document.querySelector(selector);
   if (tag && value) tag.setAttribute(attribute, value);
@@ -66,10 +57,10 @@ function createCard(product) {
   card.dataset.sku = product.id;
 
   const media = node('div', 'card-media');
-  if (product.image && isSafeExternal(product.image)) {
+  if (product.image && !/^https?:\/\//i.test(product.image)) {
     const image = node('img');
     image.src = product.image;
-    image.alt = `Original AI-generated illustration for ${product.title}`;
+    image.alt = `Original AI-generated product visual for ${product.title}`;
     image.loading = 'lazy';
     media.append(image);
   } else {

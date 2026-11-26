@@ -16,7 +16,29 @@
       "5V/2.1A USB-C input means a full recharge takes hours, not minutes"
     ],
     "verdict": "Editorial score reflects spec coverage, not Amazon star ratings. Based on published manufacturer specifications, this 1000A-class pack covers most 12V gas engines up to 6.0L and diesel up to 3.0L, with safety interlocks that reduce connection mistakes. The honest limit is energy: 24Wh supports up to twenty starts, so repeated roadside use is not unlimited. No hands-on testing is claimed.",
-    "image": "assets/001/hero.svg",
+    "image": "assets/001/hero.jpg",
+    "social_image": "assets/001/social.jpg",
     "affiliate_url": "https://link.amazon/B05Zm4YLR"
+  },
+  {
+    "id": "002",
+    "title": "4000A 12V Jump Starter with 160 PSI Air Compressor",
+    "category": "Automotive",
+    "score": 4.1,
+    "pros": [
+      "4000A peak current is the manufacturer's published headline spec for jump-starting 12V batteries",
+      "Integrated 160 PSI air compressor covers tire inflation without carrying a second tool",
+      "Combines jump clamps and an air hose in one portable roadside housing",
+      "Snapshot ranking on 2026-11-24: #16 in Automotive, 4.4 stars across 5,562 reviews (reference only)"
+    ],
+    "cons": [
+      "Peak amps and max PSI are headline figures; sustained cranking time and compressor duty cycle are not established here",
+      "One shared battery budget means repeated jumps and repeated inflating draw from the same pack",
+      "160 PSI is a maximum pressure, not a continuous shop-air flow rating, and gauge accuracy is not verified"
+    ],
+    "verdict": "Editorial score reflects spec coverage, not Amazon star ratings. Based on published headline specifications, this unit targets the two most common roadside failures at once: a dead 12V battery and an underinflated tire. The honest limit is that 4000A peak and 160 PSI maximum do not establish cold-cranking duration, compressor duty cycle, or gauge accuracy. No hands-on testing is claimed.",
+    "image": "assets/002/hero.jpg",
+    "social_image": "assets/002/social.jpg",
+    "affiliate_url": "https://link.amazon/B0d7IryDK"
   }
 ]
